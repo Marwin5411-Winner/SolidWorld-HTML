@@ -76,7 +76,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.header-navlink {
+.header-link {
   display: contents;
 }
 .header-image {
@@ -175,6 +175,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .header-icon {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
   }
 }
 @media(max-width: 479px) {
